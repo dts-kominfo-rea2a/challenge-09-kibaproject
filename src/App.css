@@ -1,4 +1,24 @@
+/* .App {
+  text-align: center;
+  display: flex;
+} */
+
+body {
+  background: #F9F2ED;
+}
+
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  gap: 16px;
+  padding: 8px 0px;
+}
+
+@media(width < 768px){
+  .App{
+    width: calc(100% - 32px);
+  }
 }

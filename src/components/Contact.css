@@ -1,0 +1,32 @@
+.contact{
+    background: #FFB562;
+    padding: 8px 16px;
+    display: flex;
+    align-content: space-between;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+.contact img {
+    width: 128px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #F87474;
+}
+
+.contact .left {
+    margin: auto 0px;
+}
+
+.contact .right {
+    text-align:center;
+    margin: auto;
+    /* width: 100%; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h2{
+    font-size: 1.5em;
+}

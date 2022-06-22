@@ -1,0 +1,9 @@
+#header{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+hr.line {
+    border-top: 8px dotted #3AB0FF;
+}
